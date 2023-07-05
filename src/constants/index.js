@@ -1,4 +1,4 @@
-import { send, shield, star, netflix, pomodoro, streetfighter, weathersearch} from "../assets";
+import { send, shield, star, netflix, pomodoro, streetfighter, weathersearch, portfolio} from "../assets";
 
 
 export const navLinks = [
@@ -64,6 +64,13 @@ export const features = [
 ];
 
 export const projects = [
+  {
+    title: "Personal Website",
+    image: portfolio,
+    id:'portfolio',
+    description:"You're looking at it! Built with React and Tailwind.",
+    githubURL: "https://github.com/kendrewchris/Personal-Website",
+  },
   {
     title: "Netflix Clone",
     image: netflix,

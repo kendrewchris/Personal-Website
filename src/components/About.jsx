@@ -3,6 +3,7 @@ import {features} from '../constants';
 import styles, {layout} from '../styles';
 import Button from './Button';
 
+
 const FeatureCard = ({icon, title, content, index}) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index!== features.length-1 ? "mb-6" : "mb-0"} feature-card`}>
     <div className={`w=[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
@@ -29,9 +30,9 @@ const About = () => {
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
           I am a senior at the University of California, Riverside currently studying Computer Science.
         </p>
-        <Button styles="mt-10">
-         
-        </Button>
+        <a href="../../public/kendrew-christanto-resume.pdf" download>
+          <Button styles="mt-10"/>
+        </a>
       </div>
       <div className ={`${layout.sectionImg} flex-col`}>
       {features.map((feature, index) => (

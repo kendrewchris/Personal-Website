@@ -12,6 +12,7 @@ import netflix from "./netflix.png";
 import pomodoro from "./pomodoro.png";
 import streetfighter from "./streetfighter.png";
 import weathersearch from "./weathersearch.png";
+import portfolio from "./portfolio.png";
 
 
 export {
@@ -28,4 +29,5 @@ export {
   pomodoro,
   streetfighter,
   weathersearch,
+  portfolio,
 };
